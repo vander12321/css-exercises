@@ -1,3 +1,7 @@
+* {
+  font-size: 16px;
+}
+
 body {
   background: #eee;
   font-family: sans-serif;
@@ -7,6 +11,8 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  border-top: 16px solid white;
+  border: 5px solid white;
 }
 
 .title {
@@ -15,13 +21,18 @@ body {
 
 .content {
   background: #e3f4ff;
+  margin-bottom: 8px;
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
+
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  margin: auto
 }
